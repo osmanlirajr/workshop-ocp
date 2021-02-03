@@ -106,7 +106,7 @@ objects:
                 }
               }
               stage('Code Analysis') {
-                  echo 'code verification....'
+                  echo "code verification...."
 	      }
               stage('Archive App') {
                 steps {
